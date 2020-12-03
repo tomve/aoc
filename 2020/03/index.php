@@ -2,7 +2,7 @@
 
 $file = file_get_contents('input1.txt');
 $lines = explode("\n", $file);
-var_dump($lines);
+
 function trees($stepsToRight = 3, $stepsToDown = 1)
 {
     global $lines;
