@@ -21,8 +21,9 @@ function part01()
             }
         }
 
-        if ($valid == true) {
+        if ($valid) {
             $validPassports++;
+            $valid = false;
         }
     }
 
